@@ -9,11 +9,12 @@
    Press Enter will prompt for File Name default name (id_rsa) and (Optional) Enter Passphrase.
    ![ScreenShot](https://github.com/harshmaheshwari001/git/blob/master/2.png)
 
-2. ssh-key private & public generated. public key (.pub) extensions in current directory. 
+2. ssh-key private & public generated **(.pub - publickey)** in current directory. 
    ![ScreenShot](https://github.com/harshmaheshwari001/git/blob/master/3.png)
 
-3. Copy **harsh_rsa.pub** key.
-4. Login to your [GitHub](https://github.com/) account. **Settings -> SSH and CPG Keys**. Click on **New SSH Key** button. 
+3. Copy **harsh_rsa.pub** key to clipboard.
+4. Login to your [GitHub](https://github.com/) account. GOTO **Settings -> SSH and CPG Keys**. 
+   Click on **New SSH Key** button. 
 
 5. Give Title to the Key and Paste copied public_key inside key textarea.
 6. Now Click on Add SSH Key button and all done now.
