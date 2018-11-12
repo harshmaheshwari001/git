@@ -6,7 +6,7 @@ source code. Git as a version control system not only used to manage largescale 
 
 Git comes with both Public and Private repository flavours. Private version of it is paid.
 
-Git is very vast and wide range of commands and tools available to manage repositories. Not all options of Git are needed 
+Git is vast and wide range of commands and tools available to manage repositories. Not all options of Git are needed 
 for all developers. Let's see most widely used Git options.
 
 
