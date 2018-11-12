@@ -1,5 +1,5 @@
 
-<h2><b><i><u>Generating a new SSH key</u></i></b></h2>
+***<h2>Generating a new SSH key</h2>***
 
 1. Open Terminal and Type below command in desired folder.
 
@@ -12,14 +12,14 @@ Press Enter will prompt for File Name default name (id_rsa) and (Optional) Enter
 2. ssh-key private & public generated. public key (.pub) extensions in current directory. 
 ![ScreenShot](https://github.com/harshmaheshwari001/git/blob/master/3.png)
 
-3. Copy <b>harsh_rsa.pub</b> key.
-4. Now GoTo <b>Settings -> SSH and CPG Keys</b>. Click on <b>New SSH Key</b> button. 
+3. Copy **harsh_rsa.pub** key.
+4. Login to your [GitHub](https://github.com/) account. **Settings -> SSH and CPG Keys**. Click on **New SSH Key** button. 
 
 5. Give Title to the Key and Paste copied public_key inside key textarea.
 6. Now Click on Add SSH Key button and all done now.
 ![ScreenShot](https://github.com/harshmaheshwari001/git/blob/master/4.png)
 
-<b><i><u>Test you configuration</u></i></b>
+***<u>Test you configuration</u>***
 1. Create any repository or use existing respository.
 2. Click on <b>Clone or download button</b> copy HTTPs link
 3. Clone new respository with following command
