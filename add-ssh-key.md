@@ -1,7 +1,7 @@
 
 <h2><b><i><u>Generating a new SSH key</u></i></b></h2>
 
-1.Open Terminal and Type below command in any folder.
+1. Open Terminal and Type below command in desired folder.
 
    ssh-keygen -t rsa -b 4096 -C "your_email@sample.com"
  ![ScreenShot](https://github.com/harshmaheshwari001/git/blob/master/1.png)
@@ -9,7 +9,7 @@
 Press Enter will prompt for File Name default name (id_rsa) and (Optional) Enter Passphrase.
 ![ScreenShot](https://github.com/harshmaheshwari001/git/blob/master/2.png)
 
-2. ssh-key generated private & public with .pub extensions in current directory. 
+2. ssh-key private & public generated. public key (.pub) extensions in current directory. 
 ![ScreenShot](https://github.com/harshmaheshwari001/git/blob/master/3.png)
 
 3. Copy <b>harsh_rsa.pub</b> key.
