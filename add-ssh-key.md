@@ -21,7 +21,7 @@ Press Enter will prompt for File Name default name (id_rsa) and (Optional) Enter
 
 ***<u>Test you configuration</u>***
 1. Create any repository or use existing respository.
-2. Click on <b>Clone or download button</b> copy HTTPs link
+2. Click on **Clone or download button** copy `HTTPs link`
 3. Clone new respository with following command
     git clone https://github.com/harshmaheshwari001/node_starter
 4. Try Git commands like Push & Pull. It works done with ssh configuration.
