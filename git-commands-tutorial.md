@@ -31,7 +31,7 @@ for all developers. Let's see most widely used Git options.
 **Check currrent branch & Upsteam remote connected to**  
 *```git branch -vv```*   
 
-**Check git log (Check git commit history sorted by lastest)**
+**Check git log (Check git commit history sorted by lastest)**  
 *```git log```* 
 
 **Give you git local repository status information**  
