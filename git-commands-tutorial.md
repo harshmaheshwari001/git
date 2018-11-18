@@ -10,14 +10,14 @@ Git is vast and wide range of commands and tools available to manage repositorie
 for all developers. Let's see most widely used Git options.
 
 **Initializing Git Repository**   
-*git init*
+```*git init*```
 
 **Cloning a Git Repository**   
-*git clone https://github.com/harshmaheshwari001/data-structure.git*
+```*git clone https://github.com/harshmaheshwari001/data-structure.git*```
 
 **Adding file and folders for git Tracking**    
-*git add README.md*  
-*git add <folder_path>/*  
+```*git add README.md*```  
+```*git add <folder_path>/*```  
 
 **Commit to local git repository**
 *git commit -m 'commit_message'
