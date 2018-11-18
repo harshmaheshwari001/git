@@ -10,32 +10,32 @@ Git is vast and wide range of commands and tools available to manage repositorie
 for all developers. Let's see most widely used Git options.
 
 **Initializing Git Repository**   
-```*git init*```
+*```git init```*
 
 **Cloning a Git Repository**   
-```*git clone https://github.com/harshmaheshwari001/data-structure.git*```
+*```git clone https://github.com/harshmaheshwari001/data-structure.git```*
 
 **Adding file and folders for git Tracking**    
-```*git add README.md*```  
-```*git add <folder_path>/*```  
+*```git add README.md```*  
+*```git add <folder_path>/```*  
 
 **Commit to local git repository**
-*git commit -m 'commit_message'
+*```git commit -m 'commit_message'```*  
 
 **Set Upsteam origin/branch Branch**  
-*git branch --set-upstream-to=origin/master*  
+*```git branch --set-upstream-to=origin/master```*  
 
 **Push with set Upstream origin branch**  
-*git push --set-upstream origin master*
+*```git push --set-upstream origin master```*
 
 **Check currrent branch & Upsteam remote connected to**  
-*git branch -vv*   
+*```git branch -vv```*   
 
 **Check git log (Check git commit history sorted by lastest)**
-*git log* 
+*```git log```* 
 
 **Give you git local repository status information**  
-*git status* - Gives information like untracked file & branch information  
+*```git status* - Gives information like untracked file & branch information```*    
 
 [References](#reference_link)
 * https://en.wikipedia.org/wiki/Linus_Torvalds 
