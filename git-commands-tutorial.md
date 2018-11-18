@@ -18,8 +18,15 @@ for all developers. Let's see most widely used Git options.
 **Adding file and folders for git Tracking**    
 *git add README.md*  
 *git add <folder_path>/*  
+
+**Commit to local git repository**
+*git commit -m 'commit_message'
+
 **Set Upsteam origin/branch Branch**  
-git push --set-upstream origin master  
+*git branch --set-upstream-to=origin/master  
+
+**Push with set Upstream origin branch**  
+*git push --set-upstream origin master  
 
 [References](#reference_link)
 * https://en.wikipedia.org/wiki/Linus_Torvalds 
