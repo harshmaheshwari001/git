@@ -37,6 +37,10 @@ for all developers. Let's see most widely used Git options.
 **Give you git local repository status information**  
 *```git status* - Gives information like untracked file & branch information```*    
 
+**Git reset will match local branch with remote origin**   
+*```git reset --hard origin/master```*  
+    - It will set your local branch to match the representation of the remote just pulled down 
+
 [References](#reference_link)
 * https://en.wikipedia.org/wiki/Linus_Torvalds 
 * https://dzone.com/refcardz/getting-started-git 
