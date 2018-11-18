@@ -9,7 +9,19 @@ Git comes with both Public and Private repository flavours. Private version of i
 Git is vast and wide range of commands and tools available to manage repositories. Not all options of Git are needed 
 for all developers. Let's see most widely used Git options.
 
+**Initializing Git Repository**
 
+*git init*
+
+**Cloning a Git Repository**
+
+*git clone https://github.com/harshmaheshwari001/data-structure.git*
+
+**Adding file and folders for git Tracking**
+
+*git add README.md*
+
+*git add <folder_path>/*
 
 
 [References](#reference_link)
