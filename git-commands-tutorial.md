@@ -26,7 +26,16 @@ for all developers. Let's see most widely used Git options.
 *git branch --set-upstream-to=origin/master*  
 
 **Push with set Upstream origin branch**  
-*git push --set-upstream origin master*    
+*git push --set-upstream origin master*
+
+**Check currrent branch & Upsteam remote connected to**  
+*git branch -vv*   
+
+**Check git log (Check git commit history sorted by lastest)**
+*git log* 
+
+**Give you git local repository status information**  
+*git status* - Gives information like untracked file & branch information  
 
 [References](#reference_link)
 * https://en.wikipedia.org/wiki/Linus_Torvalds 
