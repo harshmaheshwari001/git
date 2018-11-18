@@ -23,10 +23,10 @@ for all developers. Let's see most widely used Git options.
 *git commit -m 'commit_message'
 
 **Set Upsteam origin/branch Branch**  
-*git branch --set-upstream-to=origin/master  
+*git branch --set-upstream-to=origin/master*  
 
 **Push with set Upstream origin branch**  
-*git push --set-upstream origin master  
+*git push --set-upstream origin master*    
 
 [References](#reference_link)
 * https://en.wikipedia.org/wiki/Linus_Torvalds 
