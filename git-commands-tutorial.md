@@ -35,11 +35,15 @@ for all developers. Let's see most widely used Git options.
 *```git log```* 
 
 **Give you git local repository status information**  
-*```git status* - Gives information like untracked file & branch information```*    
+*```git status```* 
+    - Gives information like untracked file & branch information    
 
 **Git reset will match local branch with remote origin**   
 *```git reset --hard origin/master```*  
-    - It will set your local branch to match the representation of the remote just pulled down 
+    - It will set your local branch to match the representation of the remote just pulled down  
+    
+**Delete local branch**    
+*```git branch -d hotfix```*    
 
 [References](#reference_link)
 * https://en.wikipedia.org/wiki/Linus_Torvalds 
