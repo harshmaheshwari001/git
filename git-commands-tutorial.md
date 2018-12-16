@@ -14,6 +14,7 @@ for all developers. Let's see most widely used Git options.
 
 **Adding remote Git Repository to existing git init folder**
 * ```git remote add origin https://github.com/harshmaheshwari001/<repo_name>```*
+
 **Cloning a Git Repository**   
 *```git clone https://github.com/harshmaheshwari001/data-structure.git```*
 
