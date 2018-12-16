@@ -48,6 +48,11 @@ for all developers. Let's see most widely used Git options.
 **Delete local branch**    
 *```git branch -d hotfix```*    
 
+**How to Fix - Git push rejected “non-fast-forward”**   
+*```git fetch```*  
+*```git rebase origin/master```*   
+*```git push origin master```*   
+
 [References](#reference_link)
 * https://en.wikipedia.org/wiki/Linus_Torvalds 
 * https://dzone.com/refcardz/getting-started-git 
