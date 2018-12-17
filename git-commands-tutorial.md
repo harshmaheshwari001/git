@@ -48,6 +48,9 @@ for all developers. Let's see most widely used Git options.
 **Delete local branch**    
 *```git branch -d hotfix```*    
 
+**Find Diff or changes in a File**   
+*```git diff <fileName/path>```*
+
 **How to Fix - Git push rejected “non-fast-forward”**   
 *```git fetch```*  
 *```git rebase origin/master```*   
