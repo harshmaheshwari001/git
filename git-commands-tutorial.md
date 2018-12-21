@@ -22,7 +22,7 @@ for all developers. Let's see most widely used Git options.
 *```git add README.md```*  
 *```git add <folder_path>/```*  
 
-**Commit to local git repository**
+**Commit to local git repository**   
 *```git commit -m 'commit_message'```*  
 
 **Set Upsteam origin/branch Branch**  
@@ -33,6 +33,9 @@ for all developers. Let's see most widely used Git options.
 
 **Check currrent branch & Upsteam remote connected to**  
 *```git branch -vv```*   
+
+**Git rebase will baseline current branch to the head***    
+*```git rebase ```*   
 
 **Check git log (Check git commit history sorted by lastest)**  
 *```git log```* 
