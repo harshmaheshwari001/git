@@ -31,9 +31,10 @@ for all developers. Let's see most widely used Git options.
 **Push with set Upstream origin branch**  
 *```git push --set-upstream origin master```*
 
-**Merge current branch with another**
- * Merge with Release - ```git merge release ```
- * Merge with development - ```git merge development```
+**Merge**
+ * Merge active branch with Release - ```git merge release ```
+ * Merge active branch with development - ```git merge development```
+ * Merge source with target - ```git merge [source branch] [target branch]```
 
 **Check currrent branch & Upsteam remote connected to**  
 *```git branch -vv```*   
