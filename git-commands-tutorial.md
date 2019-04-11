@@ -31,6 +31,10 @@ for all developers. Let's see most widely used Git options.
 **Push with set Upstream origin branch**  
 *```git push --set-upstream origin master```*
 
+**Merge current branch with another**
+ * Merge with Release - ```git merge release ```
+ * Merge with development - ```git merge development```
+
 **Check currrent branch & Upsteam remote connected to**  
 *```git branch -vv```*   
 
@@ -42,7 +46,9 @@ for all developers. Let's see most widely used Git options.
 
 **Give you git local repository status information**  
 *```git status```* 
-    - Gives information like untracked file & branch information    
+    - Gives information like untracked file & branch information  
+**Reset or uncommit previously commit**
+*```git reset --soft HEAD^```*
 
 **Git reset will match local branch with remote origin**   
 *```git reset --hard origin/master```*  
