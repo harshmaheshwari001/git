@@ -1,5 +1,8 @@
 ### Basic Linux Commands
 
+#### Adding/Modify Swapspace
+https://askubuntu.com/questions/927854/how-do-i-increase-the-size-of-swapfile-without-removing-it-in-the-terminal
+
 #### find - (find -- walk a file hierarchy)
 
 Find command recursively walk over a given directory and list all files/directories matching with given Pattern.
