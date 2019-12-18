@@ -48,3 +48,6 @@ Find command recursively walk over a given directory and list all files/director
 * n			 ->	**(move to next occurrence of search string)**
 * N			 ->	**(move to next occurrence of search string in opposite direction)**
 * :%s/foo/bar/g -> **(Replace occurance of foo with bar inentire file)** 
+
+### Curl Command Usage
+[Nice Tutorial](https://dzone.com/articles/15-examples-for-linux-curl-command?edition=554296&utm_source=Weekly%20Digest&utm_medium=email&utm_campaign=Weekly%20Digest%202019-12-18)
