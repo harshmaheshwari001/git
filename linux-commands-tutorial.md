@@ -11,6 +11,8 @@ Find command recursively walk over a given directory and list all files/director
 	- find . -name config.xml
 * *__find files of type = file with particular name in given directory__*
 	- find /tmp -type -f -name "sample.txt"
+* *__find file in current directory by pattern and remove them 
+	- find -type f -name "*.tmp" -exec rm -f {} \;	
 	
 #### Linux Useful SystemAdmin Command(s)
  
@@ -48,6 +50,14 @@ Find command recursively walk over a given directory and list all files/director
 * n			 ->	**(move to next occurrence of search string)**
 * N			 ->	**(move to next occurrence of search string in opposite direction)**
 * :%s/foo/bar/g -> **(Replace occurance of foo with bar inentire file)** 
+
+### Grep Command Usage
+* grep -w "your search text" / (Entire Text Search)
+* grep -I "your_text" (exclude all binary files from text searching)
+* grep -s "your_text" (suppress warning messages)
+* grep -i "your_text" (case-insensitive search)
+* grep -R "your_text" (Recursive search in all directory)
+* cat /tmp/logs/log.log | grep -i -C 10  "\bException\b\|\bERROR\b"  
 
 ### Curl Command Usage
 [Nice Tutorial](https://dzone.com/articles/15-examples-for-linux-curl-command?edition=554296&utm_source=Weekly%20Digest&utm_medium=email&utm_campaign=Weekly%20Digest%202019-12-18)
