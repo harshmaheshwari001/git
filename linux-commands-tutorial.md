@@ -11,7 +11,7 @@ Find command recursively walk over a given directory and list all files/director
 	- find . -name config.xml
 * *__find files of type = file with particular name in given directory__*
 	- find /tmp -type -f -name "sample.txt"
-* *__find file in current directory by pattern and remove them 
+* *__find file in current directory by pattern and remove them* 
 	- find -type f -name "*.tmp" -exec rm -f {} \;	
 	
 #### Linux Useful SystemAdmin Command(s)
