@@ -35,7 +35,14 @@ for all developers. Let's see most widely used Git options.
  * Merge active branch with Release - ```git merge release ```
  * Merge active branch with development - ```git merge development```
  * Merge source with target - ```git merge [source branch] [target branch]```
-
+ 
+**Delete all commits on a branch and override with new changes** 
+   Warning :This deletes all commits on the development branch. It's like deleting the development branch and creating it a new at the head of the development_staging.
+ 
+ * Checkout development branch - ```git checkout development ```
+ * Reset hard development with  development_staging - ```git reset --hard origin/development_staging```
+ * Git push forcefully - ```git push -f```
+ 
 **Check currrent branch & Upsteam remote connected to**  
 *```git branch -vv```*   
 
